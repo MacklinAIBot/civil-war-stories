@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --civil-navy: #1a237e;
+  --civil-burgundy: #7b1fa2;
+  --civil-cream: #f5f0e6;
+  --civil-gold: #c9a227;
+  --civil-sepia: #8b7355;
+}
+
+body {
+  background-color: var(--civil-cream);
+  color: #2d2d2d;
+}
+
+.paper-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.08'/%3E%3C/svg%3E");
+}
